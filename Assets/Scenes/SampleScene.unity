@@ -366,6 +366,7 @@ GameObject:
   - component: {fileID: 1924769718}
   - component: {fileID: 1924769720}
   - component: {fileID: 1924769721}
+  - component: {fileID: 1924769722}
   m_Layer: 0
   m_Name: Tom
   m_TagString: Untagged
@@ -457,7 +458,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -505,6 +506,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.95
+--- !u!114 &1924769722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924769717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dba1cf3cae32a4409e26ce4fb275062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidbody: {fileID: 1924769720}
+  flapStrength: 20
 --- !u!1 &1996769710
 GameObject:
   m_ObjectHideFlags: 0
